@@ -13,8 +13,8 @@ public class Stable {
 
   public void listHorses() {
     for (int i = 0; i < arrayList.size(); i++) {
-      System.out.println("Horse #" + (i + 1) + ", Name: " + arrayList.get(i).name + ", Weight: "
-          + arrayList.get(i).weight + ", Tame: " + arrayList.get(i).tame);
+      System.out.println("Horse #" + (i + 1) + " Name: " + arrayList.get(i).name + " Weight: "
+          + arrayList.get(i).weight + " Tame: " + arrayList.get(i).tame);
     }
   }
 }
